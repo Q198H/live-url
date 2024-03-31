@@ -510,10 +510,10 @@ jobs:
         EOL
 
         
-    - name: Get CTIASIA.m3u8
+    - name: Get ctiasia.m3u8
       run: |
-        touch ./CTIASIA.m3u8
-        sudo cat >./CTIASIA.m3u8 <<EOL
+        touch ./ctiasia.m3u8
+        sudo cat >./ctiasia.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
@@ -528,10 +528,10 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(yt-dlp -g https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
-    - name: Get TVBS.m3u8
+    - name: Get tvbs.m3u8
       run: |
-        touch ./TVBS.m3u8
-        sudo cat >./TVBS.m3u8 <<EOL
+        touch ./tvbs.m3u8
+        sudo cat >./tvbs.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
